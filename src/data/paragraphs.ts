@@ -1,0 +1,12 @@
+export const paragraphs = [
+  "The quick brown fox jumps over the lazy dog near the bank of the river. A gentle breeze moves through the tall grass as the sun begins to set over the distant hills. Birds return to their nests while the world slowly quiets down for the evening.",
+  "Technology has transformed the way we communicate with one another across vast distances. What once took days or weeks now happens in the blink of an eye. Messages travel through fiber optic cables under the ocean and satellites high above the earth.",
+  "Learning to code opens up a world of possibilities for creative problem solving. Every line of code is a small step toward building something new and useful. The best programmers are not those who know every syntax but those who never stop being curious.",
+  "The ocean covers more than seventy percent of our planet surface and is home to countless species. Yet we have explored only a small fraction of its depths. Each expedition reveals new creatures and ecosystems that challenge our understanding of life.",
+  "Music has the power to evoke memories and emotions like nothing else can. A single melody can transport you back to a moment in time you had almost forgotten. It is a universal language that connects people across cultures and generations.",
+  "Walking through a forest on a crisp autumn morning is an experience that rejuvenates the soul. The crunch of leaves underfoot and the earthy scent of damp wood fill the senses. Rays of sunlight filter through the canopy creating patterns on the forest floor.",
+  "The human brain is the most complex structure in the known universe. It contains billions of neurons that form trillions of connections. Scientists are only beginning to understand how these networks give rise to thoughts memories and consciousness.",
+  "Success is not measured by wealth or fame but by the impact you have on the lives of others. Small acts of kindness ripple outward in ways we may never fully see. The legacy we leave behind is written in the hearts of those we have touched.",
+  "Space exploration represents the pinnacle of human curiosity and ambition. From the first moon landing to the rovers on Mars each mission pushes the boundaries of what is possible. The cosmos beckons us to keep reaching for the stars.",
+  "Reading is a gateway to endless adventures that never require leaving your home. A well written book can make you laugh cry and see the world through someone else eyes. It is one of the few activities that exercises the imagination so completely.",
+];
