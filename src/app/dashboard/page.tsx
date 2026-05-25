@@ -51,7 +51,7 @@ export default async function DashboardPage() {
         <div className="mt-6">
           <Link
             href="/admin"
-            className="block rounded bg-green px-4 py-2 text-center text-sm font-medium text-white hover:bg-green-700"
+            className="block rounded bg-green px-4 py-2 text-center text-sm font-medium text-white hover:bg-green"
           >
             Admin Panel
           </Link>

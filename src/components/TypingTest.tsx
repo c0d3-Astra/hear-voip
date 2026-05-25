@@ -176,7 +176,7 @@ export default function TypingTest() {
             cls = typed[i] === char ? "text-green" : "text-red bg-surface0";
           }
           if (i === typed.length) {
-            cls += " border-l-2 border-yellow-400 animate-pulse";
+            cls += " border-l-2 border-yellow animate-pulse";
           }
           return (
             <span key={i} className={cls}>

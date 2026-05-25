@@ -14,7 +14,7 @@ export default function Home() {
         <div className="flex gap-4">
           <Link
             href="/register"
-            className="rounded bg-blue px-6 py-3 text-sm font-medium text-white hover:bg-blue-700"
+            className="rounded bg-blue px-6 py-3 text-sm font-medium text-white hover:bg-blue"
           >
             Get Started
           </Link>

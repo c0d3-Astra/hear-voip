@@ -229,7 +229,7 @@ export default function AdminDashboard({
                     disabled={!u.typing}
                     className={`rounded px-2.5 py-1 text-xs font-medium ${
                       u.typing
-                        ? "bg-blue text-white hover:bg-blue-700"
+                        ? "bg-blue text-white hover:bg-blue"
                         : "cursor-not-allowed bg-surface0 text-overlay0"
                     }`}
                   >
