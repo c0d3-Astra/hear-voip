@@ -4,8 +4,18 @@ import { Server } from "socket.io";
 import { decode } from "next-auth/jwt";
 
 const httpServer = createServer();
+
+// Health check for Railway
+httpServer.on("request", (req, res) => {
+  if (req.url === "/health") {
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(JSON.stringify({ status: "ok" }));
+  }
+});
+
 const io = new Server(httpServer, {
   cors: { origin: "*", methods: ["GET", "POST"] },
+  perMessageDeflate: false,
 });
 
 const secret = process.env.NEXTAUTH_SECRET!;
@@ -192,7 +202,7 @@ io.on("connection", (socket) => {
   });
 });
 
-const PORT = parseInt(process.env.SOCKET_PORT || "3001", 10);
-httpServer.listen(PORT, () => {
+const PORT = parseInt(process.env.PORT || process.env.SOCKET_PORT || "3001", 10);
+httpServer.listen(PORT, "0.0.0.0", () => {
   console.log(`Socket.io server running on port ${PORT}`);
 });

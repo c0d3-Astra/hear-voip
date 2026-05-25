@@ -1,0 +1,17 @@
+{
+  "name": "hear-voip-socket",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npx tsx socket.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "next-auth": "^4.24.14",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.22.3",
+    "typescript": "^5"
+  }
+}
